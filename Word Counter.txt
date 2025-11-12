@@ -1,0 +1,10 @@
+** start of script.js **
+
+function countWords(sentence) {
+  if (sentence.trim() === "") return 0; // handle empty string
+  return sentence.split(" ").length;
+}
+
+
+** end of script.js **
+
